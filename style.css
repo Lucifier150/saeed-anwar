@@ -50,7 +50,7 @@ a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -214,6 +214,21 @@ img {
     width: 50%;
     height: 2px;
     background-color: #FFBA0A;
+}
+
+.my_arrow {
+    position: relative;
+    padding-left: 2.5rem;
+}
+
+.my_arrow::before {
+    content: "";
+    position: absolute;
+    background-image: url("/assets/images/arrow.svg");
+    width: 25px;
+    height: 25px;
+    left: 0;
+    top: 0;
 }
 
 @media (max-width:600px) {
