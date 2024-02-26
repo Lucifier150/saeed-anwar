@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 .9rem;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #090808;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cinzel", serif;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 31.44px;
+    font-weight: 700;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFF !important;
+    font-weight: 300;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.active {
+    color: #FFBA0A !important;
+}
+
+li {
+    list-style: none;
+}
+
+.text-colored {
+    color: #FFBA0A;
+}
+
+img {
+    width: 100%;
+}
+
+.my_logo {
+    width: 102px;
+}
+
+.icon-btn {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+}
+
+.search-bar {
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 8px 20px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-weight: 300;
+}
+
+.search-bar::placeholder {
+    color: #FFF;
+}
+
+.humburger-bar {
+    width: 25px;
+}
+
+.trans-bg {
+    background-color: transparent;
+}
+
+.banner-bg {
+    background-image: url("/assets/images/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    margin-top: -7rem;
+}
+
+.banner_heading {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.info_heading {
+    text-transform: uppercase;
+}
+
+.content__text p {
+    color: #FFF;
+    font-weight: 300;
+}
+
+.yello-btn {
+    background-color: #FFBA0A;
+    border-radius: 100px;
+    padding: 15px 45px;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+}
+
+.black-btn {
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 15px 45px;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.spacing {
+    padding: 5% 0;
+}
+
+.info__image {
+    width: 489px;
+}
+
+.blur-shades-1 {
+    width: 329px;
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+}
+
+.blur-shades-2 {
+    width: 329px;
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.text-small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-dark button {
+    background-color: #252525;
+    color: #FFF;
+    border: none;
+    border-radius: 100px;
+    padding: 5px 23px;
+}
+
+.mycard {
+    background-color: #FFF;
+    padding: 1rem;
+    border-radius: 10px;
+    background-image: url("/assets/images/check.png");
+    background-repeat: no-repeat;
+    background-size: 100% contain;
+    height: 351px;
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.perfume-imgae-1 {
+    width: 150px;
+}
+
+.slick-initialized .slick-slide {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.long-line {
+    position: relative;
+}
+
+.long-line::after {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    width: 50%;
+    height: 2px;
+    background-color: #FFBA0A;
+}
+
+@media (max-width:600px) {
+    .my_logo {
+        width: 70px;
+    }
+}
