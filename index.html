@@ -12,7 +12,8 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
 
 </head>
 
@@ -384,12 +385,15 @@
                     </div>
                     <div class="arrows-point content__text">
                         <p class="my_arrow">
-                            Saeed Anwar Oud crafts unique oud blends and fragrances with an exclusive touch, infusing them with passion and expertise; this is the essence of exclusivity.
+                            Saeed Anwar Oud crafts unique oud blends and fragrances with an exclusive touch, infusing
+                            them with passion and expertise; this is the essence of exclusivity.
                         </p>
                     </div>
                     <div class="arrows-point content__text">
                         <p class="my_arrow">
-                            Our brand, imbued with excellence and elegance, draws inspiration from Saeed Anwar's remarkable legacy. It bears a commitment to exceeding expectations - a testament indeed to his profound influence.
+                            Our brand, imbued with excellence and elegance, draws inspiration from Saeed Anwar's
+                            remarkable legacy. It bears a commitment to exceeding expectations - a testament indeed to
+                            his profound influence.
                         </p>
                     </div>
                 </div>
@@ -404,7 +408,7 @@
                     Best Selling Product
                 </h2>
             </div>
-            <div class="row flex-wrap mt-5">
+            <div class="nitro mt-5">
                 <div class="col d-flex justify-contet-center">
                     <div class="product_bottles pt-3 pb-5">
                         <div class="bottle">
@@ -492,6 +496,97 @@
                             <button>
                                 Shop Now
                             </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-contet-center">
+                    <div class="product_bottles pt-3 pb-5">
+                        <div class="bottle">
+                            <img src="/assets/images/bottle-1.png" alt="">
+                        </div>
+                        <div class="product_name text-center">
+                            <p class="fw-semibold mb-0">Maliki OUD</p>
+                        </div>
+                        <div class="product_price text-center">
+                            <p class="text-small text-colored">Rs 220.00</p>
+                        </div>
+                        <div class="btn-dark d-flex justify-content-center">
+                            <button>
+                                Shop Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form -->
+    <section class="spacing contact-bg">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading">
+                        <h2 class="text-colored">
+                            Contact us
+                            For More Information
+                        </h2>
+                    </div>
+                    <div class="content__text">
+                        <p>
+                            Do not hesitate to contact us for inquiries or assistance. Our dedicated team stands ready.
+                            Our goal is assisting you in uncovering the perfect oud fragrance, a scent that not only
+                            reflects but also amplifies your unique style and personality. 
+                        </p>
+                    </div>
+                    <div class="mt-5">
+                        <div class="row mx-0">
+                            <div class="col-6">
+                                <div class="d-flex gap-3 align-items-center justify-content-center border rounded-pill pt-3 pb-3">
+                                    <div class="contact-img">
+                                        <img src="/assets/images/phone-logo.png" class="w-100" alt="">
+                                    </div>
+                                    <div class="text-white">
+                                        <p class="mb-0">Have Any Question</p>
+                                        <p class="mb-0">
+                                            +92134578926
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <div class="row mx-0">
+                            <div class="col-6">
+                                <div class="d-flex gap-3 align-items-center justify-content-center border rounded-pill pt-3 pb-3">
+                                    <div class="contact-img">
+                                        <img src="/assets/images/phone-logo.png" class="w-100" alt="">
+                                    </div>
+                                    <div class="text-white">
+                                        <p class="mb-0">Have Any Question</p>
+                                        <p class="mb-0">
+                                            +92134578926
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <div class="row mx-0">
+                            <div class="col-6">
+                                <div class="d-flex gap-3 align-items-center justify-content-center border rounded-pill pt-3 pb-3">
+                                    <div class="contact-img">
+                                        <img src="/assets/images/phone-logo.png" class="w-100" alt="">
+                                    </div>
+                                    <div class="text-white">
+                                        <p class="mb-0">Have Any Question</p>
+                                        <p class="mb-0">
+                                            +92134578926
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -511,6 +606,37 @@
         nextArrow: "<img class='a-right control-c next slick-next' src='/assets/images/chevron-right-solid.svg'>",
         centerPadding: '60px',
         slidesToShow: 3,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+</script>
+<script>
+    $('.nitro').slick({
+        centerMode: false,
+        arrows: false,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        centerPadding: '60px',
+        slidesToShow: 5,
         responsive: [
             {
                 breakpoint: 768,

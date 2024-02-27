@@ -124,6 +124,10 @@ img {
     font-weight: 300;
 }
 
+.contact-img {
+    width: 70px;
+}
+
 .yello-btn {
     background-color: #FFBA0A;
     border-radius: 100px;
@@ -242,6 +246,12 @@ img {
     width: 250px;
 }
 
+.contact-bg {
+    background-image: url("/assets/images/contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 @media (max-width:600px) {
     .mycard {
         background-color: #FFF;
@@ -257,6 +267,7 @@ img {
         align-items: center;
         margin: 0 .5rem;
     }
+
     .my_logo {
         width: 70px;
     }
